@@ -1,0 +1,67 @@
+div.datatable{
+margin:8px 0px;
+overflow-x:auto;
+}
+
+table.data{
+border:1px solid #aaaaaa;
+border-collapse:collapse;
+}
+
+
+table.data th{
+border:1px solid #aaaaaa;
+}
+
+table.data .topData{
+vertical-align:top;
+}
+
+.data .odd{
+background-color:#EAEAEA;
+}
+
+.data .new{
+background-color:#ffffdd;
+@box-shadow:0px 0px 3px #dddddd;
+}
+
+.data .title{
+background:#EEE;
+height:35px;
+color:#000000;
+font-weight:100;
+text-shadow:none;
+@box-shadow:0px 0px 3px #dddddd;
+}
+
+.data .title td{
+vertical-align:middle;
+}
+
+.data .theader{
+height:35px;
+background-image:url("../images/caption.png");
+background-size:100% 100%;
+@box-shadow:0px 0px 3px #dddddd;
+}
+
+.data a{
+color:#000066;
+text-decoration:none;
+}
+
+.data.form td{
+border-left:none;
+border-right:none;
+}
+
+.dttb td{
+vertical-align:top;
+}
+.input, .tgl_lahir, .tgl {
+	padding:4px;
+}
+.input:hover, .tgl_lahir:hover, .tgl:hover {
+	border:1px solid #000;
+}
